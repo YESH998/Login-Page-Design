@@ -45,6 +45,7 @@ input {
     background-color: #778be4;
     border: none;
     margin: auto;
+    outline: none;
     border-radius: 10px;
 }
 

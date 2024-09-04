@@ -12,7 +12,8 @@ leftElement1.addEventListener('click',function(){
 
 let leftElement2 = document.getElementById('login');
 
-leftElement2.addEventListener('click',function(){
+leftElement2.addEventListener('click',function(e){
+    e.preventDefault()
 
     let inputElement = document.getElementById('loginPassword');
 
